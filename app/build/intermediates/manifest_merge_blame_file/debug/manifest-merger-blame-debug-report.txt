@@ -1,0 +1,75 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.daggerhilt"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->E:\Vaibhav\AndroidProject\DaggerHilt\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->E:\Vaibhav\AndroidProject\DaggerHilt\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\Vaibhav\AndroidProject\DaggerHilt\app\src\main\AndroidManifest.xml:5:5-66
+11-->E:\Vaibhav\AndroidProject\DaggerHilt\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->E:\Vaibhav\AndroidProject\DaggerHilt\app\src\main\AndroidManifest.xml:6:5-21:19
+14        android:name="com.example.daggerhilt.BaseApplication"
+14-->E:\Vaibhav\AndroidProject\DaggerHilt\app\src\main\AndroidManifest.xml:12:9-40
+15        android:allowBackup="true"
+15-->E:\Vaibhav\AndroidProject\DaggerHilt\app\src\main\AndroidManifest.xml:7:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.7.0] C:\Users\PRINCE\.gradle\caches\transforms-2\files-2.1\8870d38c0778251c8ed2406507c62e52\core-1.7.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->E:\Vaibhav\AndroidProject\DaggerHilt\app\src\main\AndroidManifest.xml:8:9-43
+19        android:label="@string/app_name"
+19-->E:\Vaibhav\AndroidProject\DaggerHilt\app\src\main\AndroidManifest.xml:9:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->E:\Vaibhav\AndroidProject\DaggerHilt\app\src\main\AndroidManifest.xml:10:9-54
+21        android:supportsRtl="true"
+21-->E:\Vaibhav\AndroidProject\DaggerHilt\app\src\main\AndroidManifest.xml:11:9-35
+22        android:testOnly="true"
+23        android:theme="@style/Theme.DaggerHilt" >
+23-->E:\Vaibhav\AndroidProject\DaggerHilt\app\src\main\AndroidManifest.xml:13:9-48
+24        <activity android:name="com.example.daggerhilt.MainActivity" >
+24-->E:\Vaibhav\AndroidProject\DaggerHilt\app\src\main\AndroidManifest.xml:14:9-20:20
+24-->E:\Vaibhav\AndroidProject\DaggerHilt\app\src\main\AndroidManifest.xml:14:19-47
+25            <intent-filter>
+25-->E:\Vaibhav\AndroidProject\DaggerHilt\app\src\main\AndroidManifest.xml:15:13-19:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->E:\Vaibhav\AndroidProject\DaggerHilt\app\src\main\AndroidManifest.xml:16:17-69
+26-->E:\Vaibhav\AndroidProject\DaggerHilt\app\src\main\AndroidManifest.xml:16:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->E:\Vaibhav\AndroidProject\DaggerHilt\app\src\main\AndroidManifest.xml:18:17-77
+28-->E:\Vaibhav\AndroidProject\DaggerHilt\app\src\main\AndroidManifest.xml:18:27-74
+29            </intent-filter>
+30        </activity>
+31
+32        <provider
+32-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PRINCE\.gradle\caches\transforms-2\files-2.1\5e277f55f61c2e547a36f0c835d7ca4f\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+33            android:name="androidx.startup.InitializationProvider"
+33-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PRINCE\.gradle\caches\transforms-2\files-2.1\5e277f55f61c2e547a36f0c835d7ca4f\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+34            android:authorities="com.example.daggerhilt.androidx-startup"
+34-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PRINCE\.gradle\caches\transforms-2\files-2.1\5e277f55f61c2e547a36f0c835d7ca4f\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+35            android:exported="false" >
+35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PRINCE\.gradle\caches\transforms-2\files-2.1\5e277f55f61c2e547a36f0c835d7ca4f\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+36            <meta-data
+36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PRINCE\.gradle\caches\transforms-2\files-2.1\5e277f55f61c2e547a36f0c835d7ca4f\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+37                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PRINCE\.gradle\caches\transforms-2\files-2.1\5e277f55f61c2e547a36f0c835d7ca4f\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+38                android:value="androidx.startup" />
+38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PRINCE\.gradle\caches\transforms-2\files-2.1\5e277f55f61c2e547a36f0c835d7ca4f\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+39            <meta-data
+39-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PRINCE\.gradle\caches\transforms-2\files-2.1\81643e4eeec58e56422e3b595295083a\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+40                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+40-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PRINCE\.gradle\caches\transforms-2\files-2.1\81643e4eeec58e56422e3b595295083a\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+41                android:value="androidx.startup" />
+41-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PRINCE\.gradle\caches\transforms-2\files-2.1\81643e4eeec58e56422e3b595295083a\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+42        </provider>
+43    </application>
+44
+45</manifest>
